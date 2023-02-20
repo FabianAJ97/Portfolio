@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="containerCustom">
+      <nav>
+        <ul class="navItems">
+          <li><a href="#">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
+        <div class="links">
+          <a
+            href="https://www.linkedin.com/in/fabian-noel-9022711b8/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/FabianAJ97" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+      </nav>
+
+      <div class="wrapper">
+        <div class="cols cols0">
+          <span class="topline">Hello</span>
+          <h1>
+            I'm <span class="multiText"> an aspiring Junior Developer</span>
+          </h1>
+          <p>
+            My name is Fabian Noel, I'm a self-taught web-developer from London
+            pursuing my dream of having a successful career as a developer.
+          </p>
+          <div class="btns">
+            <button><a href="/CV.pdf" target="_blank">Download CV</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="skills">
+      <header class="skills-heading">Skills</header>
+      <div class="skills">
+        <div class="set">
+          <span class="fas fa-globe"></span>
+          <header>Web Development</header>
+          <div class="list">
+            <label>HTML</label>
+            <i class="fab fa-html5"></i>
+          </div>
+          <div class="list">
+            <label>CSS</label>
+            <i class="fab fa-css3-alt"></i>
+          </div>
+          <div class="list">
+            <label>JavaScript</label>
+            <i class="fab fa-js"></i>
+          </div>
+          <div class="list">
+            <label>Wordpress</label>
+            <i class="fab fa-wordpress"></i>
+          </div>
+        </div>
+        <div class="set">
+          <span class="fas fa-tools"></span>
+          <header>FrameWorks</header>
+          <div class="list">
+            <label>Bootstrap</label>
+            <i class="fab fa-bootstrap"></i>
+          </div>
+          <div class="list">
+            <label>Node(Learning)</label>
+            <i class="fab fa-node-js"></i>
+          </div>
+          <div class="list">
+            <label>Express</label>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio-section">
+      <div class="image-box" data-reveal="left">
+        <img
+          src="/ToDoList/screenshot 3.png"
+          alt=""
+          class="img"
+          id="portfolio"
+        />
+      </div>
+      <div class="content-box">
+        <h2 class="title" data-reveal="left">To-Do-List App</h2>
+        <p class="text" data-reveal="left">
+          I built a simple To-Do-List app using some HTML,CSS & JavaScript. This
+          was mainly to help me understand some of the fundamentals of
+          javascript and to give me more experience in building JavaScript
+          applications. <br />
+          <br />
+          <b>
+            <a href="https://github.com/FabianAJ97/ToDoList" target="_blank"
+              >(Github Repository)</a
+            ></b
+          >
+        </p>
+      </div>
+      <div class="content-box">
+        <h2 class="title" data-reveal="left">Netflix Clone</h2>
+        <p class="text" data-reveal="left">
+          I created a clone of the well known Netflix website this was mainly to
+          give me a greater understanding of how to achieve different layout
+          types and understand the differences of using grid vs flexblox. During
+          this project I mainly used HTML & CSS with a little bit of JavaScript
+          to switch in and out of different panels.<br />
+          <br />
+          <b>
+            <a
+              href="https://github.com/FabianAJ97/Netflix-Clone"
+              target="_blank"
+              >(Github Repository)</a
+            ></b
+          >
+        </p>
+      </div>
+      <div class="image-box" data-reveal="left">
+        <img src="/NetflixClone/screenshot 2.png" alt="" class="img" />
+      </div>
+      <div class="image-box" data-reveal="left">
+        <img src="/Thetruthblog/test 1.png" alt="" class="img" />
+      </div>
+      <div class="content-box">
+        <h2 class="title" data-reveal="left">Thetruthblog</h2>
+        <p class="text" data-reveal="left">
+          I made this Wordpress website as a client request for a blog to be
+          pushed out through social media and also to gain familiarity with
+          using Wordpress.
+        </p>
+      </div>
+      <div class="content-box">
+        <h2 class="title" data-reveal="left">Aequos</h2>
+        <p class="text" data-reveal="left">
+          My first proffesional role as a web-developer was working with the
+          start-up company Aequos where I revamped the landing page and other
+          pages across the site as needed using cPanel to host & maintain the
+          website.
+        </p>
+      </div>
+      <div class="image-box" data-reveal="left">
+        <img src="/Aequos/ss 1.png" alt="" class="img" />
+      </div>
+      <script src="app.js"></script>
+    </section>
+  </body>
+</html>
